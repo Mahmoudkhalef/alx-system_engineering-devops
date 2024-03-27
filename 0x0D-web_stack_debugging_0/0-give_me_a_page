@@ -1,5 +1,5 @@
 
 #!/usr/bin/env bash
-# This script is used to run apache2 server on boot.
-echo "ServerName localhost" >> /etc/apache2/apache2.conf
+# getting apache to run on a docker container
+
 service apache2 start
